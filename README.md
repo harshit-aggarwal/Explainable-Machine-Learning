@@ -160,6 +160,8 @@ Other models considered:
 
 **Data security issues:** The data used should be kept secure and extremely confidential since any illegitimate use could cause information leakage issues.
 
+**Software issues:** This model has been trained on the version of software listed above, attempts to recreate this with different versions might lead to unexpected changes or results.
+
 **Caveats and Recommendations:** The training data is unbalanced, therefore unbalanced results might be obtained for different groups during evaluation.
 
 ***All models are wrong, but some are useful - George E. P. Box***
