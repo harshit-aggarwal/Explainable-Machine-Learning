@@ -106,7 +106,7 @@ Hyperparameters:
 
 **Corelation Heatmap:**
 
-<img src="Graphs/corelationheatmap.png" style="zoom: 37%;" />
+<img src="Graphs/corelationheatmap.png" style="width:300px;height:300px;" />
 
  **Feature Importance:** The best EBM feature importance plot shows global importance in EBM. 
 
@@ -118,9 +118,7 @@ Hyperparameters:
 
  **Partial dependence:** The Top three features partially effect predicted variable high_priced in EBM are shown in the plots below.
 
-<img src="Graphs/Loantovalue_ebm.png"  style="zoom:10%;" />
-<img src="Graphs/debttoincome_ebm.png"  style="zoom:10%;" />
-<img src="Graphs/propertyvalue_ebm.png"  style="zoom:10%;" />
+<img src="Graphs/Loantovalue_ebm.png"  style="width:300px;height:300px;" /><img src="Graphs/debttoincome_ebm.png"  style="width:300px;height:300px;" /><img src="Graphs/propertyvalue_ebm.png"  style="width:300px;height:300px;" />
 
 **Adverse Impact Ratio:** 
 
@@ -133,7 +131,7 @@ Hyperparameters:
 
 **Grid Search AIR vs AUC:** A two dimensional plot with x-axis as the AIR and y-axis as AUC, the result shows various options for accurate and less discriminatory models.
 
-<img src="Graphs/AIRvsAUC_ebm.png" style="zoom:30%;" />
+<img src="Graphs/AIRvsAUC_ebm.png" style="width:500px;height:500px;" />
 
 **Stolen Model:** A decision tree model that is used to craft a highly effective adversarial examples that allow the group to identify vulnerabilities.
 
@@ -141,11 +139,11 @@ Hyperparameters:
 
 **Variable Importance for Stolen Model:** The features that are important in the stolen Model are shown below.
 
-<img src="Graphs/stolendecisiontreevariableimportance_ebm.png" style="zoom:30%;" />
+<img src="Graphs/stolendecisiontreevariableimportance_ebm.png" style="width:500px;height:500px;" />
 
 **Residual Analysis:** Residuals Plot for removing outliers.
 
-<img src="Graphs/residualanalysis_ebm.png" style="zoom:30%;" />
+<img src="Graphs/residualanalysis_ebm.png" style="width:500px;height:500px;" />
 
 ### Ethical Considerations 
 
@@ -155,6 +153,6 @@ Hyperparameters:
 
 **Data security issues:** The data used should be kept secure and extremely confidential since any illegitimate use could cause information leakage issues.
 
-** Caveats and Recommendations:** The training data is unbalanced, therefore unbalanced results might be obtained for different groups during evaluation.
+**Caveats and Recommendations:** The training data is unbalanced, therefore unbalanced results might be obtained for different groups during evaluation.
 
-*All models are wrong, but some are useful - George E. P. Box*
+***All models are wrong, but some are useful - George E. P. Box***
