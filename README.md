@@ -106,7 +106,7 @@ Hyperparameters:
 
 **Corelation Heatmap:**
 
-<img src="Graphs/corelationheatmap.png" style="zoom: 67%;" />
+<img src="Graphs/corelationheatmap.png" style="zoom: 37%;" />
 
  **Feature Importance:** The best EBM feature importance plot shows global importance in EBM. 
 
@@ -118,9 +118,9 @@ Hyperparameters:
 
  **Partial dependence:** The Top three features partially effect predicted variable high_priced in EBM are shown in the plots below.
 
-<img src="Graphs/Loantovalue_ebm.png"  style="zoom:30%;" />
-<img src="Graphs/debttoincome_ebm.png"  style="zoom:30%;" />
-<img src="Graphs/propertyvalue_ebm.png"  style="zoom:30%;" />
+<img src="Graphs/Loantovalue_ebm.png"  style="zoom:10%;" />
+<img src="Graphs/debttoincome_ebm.png"  style="zoom:10%;" />
+<img src="Graphs/propertyvalue_ebm.png"  style="zoom:10%;" />
 
 **Adverse Impact Ratio:** 
 
@@ -133,19 +133,19 @@ Hyperparameters:
 
 **Grid Search AIR vs AUC:** A two dimensional plot with x-axis as the AIR and y-axis as AUC, the result shows various options for accurate and less discriminatory models.
 
-<img src="Graphs/AIRvsAUC_ebm.png" style="zoom:50%;" />
+<img src="Graphs/AIRvsAUC_ebm.png" style="zoom:30%;" />
 
 **Stolen Model:** A decision tree model that is used to craft a highly effective adversarial examples that allow the group to identify vulnerabilities.
 
-<img src="Graphs/Stolendecisiontree_ebm.png" style="zoom:50%;" />
+<img src="Graphs/Stolendecisiontree_ebm.png" style="zoom:30%;" />
 
 **Variable Importance for Stolen Model:** The features that are important in the stolen Model are shown below.
 
-<img src="Graphs/stolendecisiontreevariableimportance_ebm.png" style="zoom:50%;" />
+<img src="Graphs/stolendecisiontreevariableimportance_ebm.png" style="zoom:30%;" />
 
 **Residual Analysis:** Residuals Plot for removing outliers.
 
-<img src="Graphs/residualanalysis_ebm.png" style="zoom:40%;" />
+<img src="Graphs/residualanalysis_ebm.png" style="zoom:30%;" />
 
 ### Ethical Considerations 
 
