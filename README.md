@@ -47,9 +47,6 @@ License: MIT
 | agegte62 | demographic information | int | whether a person is over the age of 62 (1) or not over the age of 62 (0)|
 | agelt62E | demographic information | int | whether a person is below the age of 62 (1) or not below the age of 62 (0)|
 
-
-
-
 Source of training data: https://github.com/jphall663/GWU_rml/tree/master/assignments/data
 
 How training data was divided into training and validation data: 
@@ -102,11 +99,17 @@ Hyperparameters:
 * 'n_jobs': 4
 * 'random_state': 12345
 
+Other models considered:
+
+Monotonic XGBoost: Test AUC - 0.813
+Generalized Linear Regression Model: Test AUC - 0.775
+GAMI-Net: Test AUC - 0.79
+Rectified Linear Unit Deep Neural Network (ReLU-DNN): Test AUC - 0.814
+Although some other models perform better they fail the Adverse-Impact Ratio test and hence were not considered as the best deployable model.
+
 ### Quantative Analysis
 
-*EBM is the best model when compared to alternative models such as the penalized general linear model (GLM) and monotonic gradient boosting machine (MGBM) model, because it ranked highest on average across metrics and folds.The metrics used to evaluate the EBM model against alternative models is shown below:*
-
-
+*EBM is the best model when compared to alternative models such as the penalized general linear model (GLM) and monotonic gradient boosting machine (MGBM) model, because it ranked highest on average across metrics and folds.The metrics used to evaluate the EBM model against alternative models is shown below:
 
 **Corelation Heatmap:**
 
@@ -151,12 +154,14 @@ Hyperparameters:
 
 ### Ethical Considerations 
 
-**Criterion:** Different criterion chosen for building the same models may cause varied results and sensitive data should not be altered.
+Criterion: Different criterion chosen for building the same models may cause varied results and sensitive data should not be altered. Different geographic locations, different demographics etc can cause unexpected results and this model should not be applied beyond the scope of the training data.
 
-**Bias:** Bias in Models leads to serious real life implications.
+Bias: Bias in Models leads to serious real life implications. Although the model has passed the Adverse-Impact-Ratio threshold of 0.8, there still exists biases and the model should be continually monitored for biases moving forward. These biases tend to impact minority groups and test data should be routinely monitored.
 
-**Data security issues:** The data used should be kept secure and extremely confidential since any illegitimate use could cause information leakage issues.
+Data security issues: The data used should be kept secure and extremely confidential since any illegitimate use could cause information leakage issues.
 
-**Caveats and Recommendations:** The training data is unbalanced, therefore unbalanced results might be obtained for different groups during evaluation.
+Software issues: This model has been trained on the version of software listed above, attempts to recreate this with different versions might lead to unexpected changes or results.
 
-***All models are wrong, but some are useful - George E. P. Box***
+Caveats and Recommendations: The training data is unbalanced, therefore unbalanced results might be obtained for different groups during evaluation.
+
+All models are wrong, but some are useful - George E. P. Box
