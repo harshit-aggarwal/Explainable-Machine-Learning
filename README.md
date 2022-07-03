@@ -154,9 +154,9 @@ Other models considered:
 
 ### Ethical Considerations 
 
-**Criterion:** Different criterion chosen for building the same models may cause varied results and sensitive data should not be altered.
+**Criterion:** Different criterion chosen for building the same models may cause varied results and sensitive data should not be altered. Different geographic locations, different demographics etc can cause unexpected results and this model should not be applied beyond the scope of the training data.
 
-**Bias:** Bias in Models leads to serious real life implications.
+**Bias:** Bias in Models leads to serious real life implications. Although the model has passed the Adverse-Impact-Ratio threshold of 0.8, there still exists biases and the model should be continually monitored for biases moving forward. These biases tend to impact minority groups and test data should be routinely monitored.
 
 **Data security issues:** The data used should be kept secure and extremely confidential since any illegitimate use could cause information leakage issues.
 
