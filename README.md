@@ -102,6 +102,8 @@ Hyperparameters:
 * 'n_jobs': 4
 * 'random_state': 12345
 
+  * Other models considered: Monotonic XGBoost, Generalized Linear Regression Model, GAMI-Net, Rectified Linear Unit Deep Neural Network (ReLU-DNN)
+
 ### Quantative Analysis
 
 **Corelation Heatmap:**
