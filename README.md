@@ -105,6 +105,7 @@ Other models considered:
 * Generalized Linear Regression Model: Test AUC - 0.775
 * GAMI-Net: Test AUC - 0.79
 * Rectified Linear Unit Deep Neural Network (ReLU-DNN): Test AUC - 0.814
+
 Although some other models perform better they fail the Adverse-Impact Ratio test and hence were not considered as the best deployable model.
 
 ### Quantative Analysis
