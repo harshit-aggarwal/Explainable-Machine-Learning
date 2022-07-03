@@ -102,7 +102,12 @@ Hyperparameters:
 * 'n_jobs': 4
 * 'random_state': 12345
 
-  * Other models considered: Monotonic XGBoost, Generalized Linear Regression Model, GAMI-Net, Rectified Linear Unit Deep Neural Network (ReLU-DNN)
+Other models considered: 
+
+* Monotonic XGBoost: Test AUC - 0.813
+* Generalized Linear Regression Model: Test AUC - 0.775
+* GAMI-Net: Test AUC - 0.79
+* Rectified Linear Unit Deep Neural Network (ReLU-DNN): Test AUC - 0.814
 
 ### Quantative Analysis
 
