@@ -110,7 +110,9 @@ Although some other models perform better they fail the Adverse-Impact Ratio tes
 
 ### Quantative Analysis
 
-*EBM is the best model when compared to alternative models such as the penalized general linear model (GLM) and monotonic gradient boosting machine (MGBM) model, because it ranked highest on average across metrics and folds.The metrics used to evaluate the EBM model against alternative models is shown below:
+*EBM is the best model when compared to alternative models such as the penalized general linear model (GLM) and monotonic gradient boosting machine (MGBM) model, because it ranked highest on average across metrics and folds.The metrics used to evaluate the EBM model against alternative models is shown below:*
+
+<img src="Graphs/Evaluation Results.png" style="width:600px;height:700px;" />
 
 **Corelation Heatmap:**
 
